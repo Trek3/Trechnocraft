@@ -20,10 +20,10 @@ public class Achievements{
 	}
 
 	private static void nameArchievements(String achievement,String name){
-		LanguageRegistry.instance().addStringLocalization("achievement." + achievement, "en_US", name);
+		LanguageRegistry.instance().addStringLocalization("achievement" + achievement, "en_US", name);
 	}
 	private static void describeAchievements(String achievement,String desc){
-		LanguageRegistry.instance().addStringLocalization("achievement." + achievement + ".desc", "en_US", desc);
+		LanguageRegistry.instance().addStringLocalization("achievement" + achievement + ".desc", "en_US", desc);
 	}
 	private static void registerConditions(){
 
